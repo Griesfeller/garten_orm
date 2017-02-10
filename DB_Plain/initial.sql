@@ -13,3 +13,4 @@ CREATE TABLE  IF NOT EXISTS garten.user
 
 );
 
+REPLACE INTO garten.user (id,username, userpass, userexpire, userright, userfirstname, userlastname, userkey) VALUES ('1', 'grisu', 'feuer', '9999-12-31 23:59:59', 256, 'Sven', 'Griesfeller', '1');
